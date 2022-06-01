@@ -23,7 +23,7 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
 
-  playerBase = new PlayerBase(300, random(450, height - 300), 180, 150);
+  playerBase = new PlayerBase(300, 400, 180, 150);
 //create a player object from the Player class.
 player = new Player(
   width - 1260,
@@ -33,7 +33,7 @@ player = new Player(
 
   computerBase = new ComputerBase(
     width - 300,
-    random(450, height - 300),
+    400,
     180,
     150
   );
